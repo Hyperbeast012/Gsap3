@@ -132,3 +132,11 @@ tl.from("#page1-content h1 span",{
     opacity:0,
     stagger:0.1
 })
+
+const menu=document.getElementById("red");
+const menulist=document.querySelector(".menu");
+
+
+menu.addEventListener('click', function(event) {
+    menulist.style.display = 'block';
+});

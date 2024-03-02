@@ -90,6 +90,7 @@ nav h4{
     cursor: pointer;
 }
 
+
 #page1-content h1{
     font-family:rej;
     font-size: 20vw;
@@ -393,4 +394,30 @@ footer img {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu{
+    border:1px solid black;
+    width:20%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    display:none;
+    padding: 1rem 1rem;
+    text-align: center;
+    position: absolute;
+    z-index: 10000;
+    transform: translateX(65rem) translateY(4rem);
+    box-shadow: 10px 5px 5px black;
+
+}
+.menu-list a{
+    text-decoration: none;
+    margin-right:2rem;
+    color: rgb(10, 3, 15);
+   
+  
+}
+ul{
+    list-style: none;
+    padding: 2rem 0;
 }
