@@ -1,11 +1,11 @@
 @font-face{
     font-family: nb;
-    src:url(/NBInternationalProBoo.ttf)
+    src:url(./NBInternationalProBoo.ttf)
 }
 
 @font-face {
     font-family: rej;
-    src: url(/Rejouice-Headline.ttf);
+    src: url(./Rejouice-Headline.ttf);
 }
 
 *{
@@ -92,14 +92,14 @@ nav h4{
 
 #page1-content h1{
     font-family:rej;
-    font-size: 23vw;
+    font-size: 20vw;
     font-weight: 900;
     line-height: 23vw;
 
 }
 #page1-content h1 span{
     font-family: rej;
-    letter-spacing: .5rem;
+    letter-spacing: .2rem;
     display: inline-block;
 }
 
