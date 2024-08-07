@@ -136,7 +136,12 @@ tl.from("#page1-content h1 span",{
 const menu=document.getElementById("red");
 const menulist=document.querySelector(".menu");
 
+menu.onclick=function(){
+    if(menulist.style.display=='block'){
+        menulist.style.display='none';
+    }
+    else{
+        menulist.style.display='block'
+    }
+}
 
-menu.addEventListener('click', function(event) {
-    menulist.style.display = 'block';
-});
